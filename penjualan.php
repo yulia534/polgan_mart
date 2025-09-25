@@ -49,3 +49,8 @@ foreach ($beli as $item) {
     echo "Total Harga : Rp. {$item['total']} <br><br>";
 }
 
+// Total belanja
+echo "<hr>";
+echo "<h3>Total Belanja</h3>";
+echo "<p>Rp. " . $grandtotal . "</p>";
+?>
