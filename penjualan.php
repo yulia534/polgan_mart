@@ -40,3 +40,12 @@ for ($i = 0; $i < $jumlah_pembelian; $i++) {
     ];
 }
 
+// Tampilkan detail pembelian
+echo "<h3>Detail Pembelian</h3>";
+foreach ($beli as $item) {
+    echo "Nama Barang : {$item['nama']} <br>";
+    echo "Harga Barang: Rp. {$item['harga']} <br>";
+    echo "Jumlah Beli : {$item['jumlah']} <br>";
+    echo "Total Harga : Rp. {$item['total']} <br><br>";
+}
+
